@@ -1,5 +1,5 @@
-//TC : nlogK
-//SC : O(n+k)
+//TC : nlogN - where N can be more than n in  heap
+//SC : O(N)
 class UglyNumberII {
     public int nthUglyNumber(int n) {
         int[] primes = {2, 3, 5};
